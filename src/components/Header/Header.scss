@@ -1,0 +1,39 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    color: white;
+    padding: 20px 0;
+    box-shadow: 4px 4px 4px rgba($color: lightgrey, $alpha: 0.8);
+
+    &__logo {
+        color: darkslategrey;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__nav {
+
+        ul {
+            display: flex;
+            gap: 40px;
+        }
+
+        ul li a {
+            transition: 0.3s;
+            text-decoration: none;
+            font-size: 18px;
+            color: darkslategrey;
+        }
+
+        ul li a:hover {
+            color: gold;
+        }
+    }
+}
