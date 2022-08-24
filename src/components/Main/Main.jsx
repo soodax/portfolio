@@ -7,7 +7,7 @@ const Main = (props) => {
             <div className='container'>
                 <div className='main__row'>
                     <div className='main__col'>
-                        <h1 className='main__name'>MIRAKOV<br />DAVID</h1>
+                        <h1 className='title-big'>MIRAKOV<br />DAVID</h1>
                         <h2 className='main__info'>Front-end developer</h2>
                     </div>
                     <div className='main__col image-block'>

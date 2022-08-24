@@ -3,41 +3,35 @@
     color: darkslategrey;
     padding: 20px 0;
     box-shadow: 4px 0px 4px rgba($color: grey, $alpha: 0.8);
+    
     @media (max-width: 767px) {
         margin: 30px 0 0 0;
-    }
-
-    &__title {
-        // font-size: 24px;
-        // font-weight: 600;
     }
 
     &__list {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 15px;
     }
 
     &__list li {
         padding: 0 0 0 15px;
         position: relative;
+        color: darkslategrey;
+        font-size: 16px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img {
+            max-width: 18px;
+            max-height: 18px;
+        }
     }
 
     &__list li a {
         color: darkslategrey;
-        font-size: 16px;
-        font-weight: 500;
-    }
-
-    &__list li a::before {
-        content: '';
-        position: absolute;
-        top: 5px;
-        left: 0;
-        width: 8px;
-        height: 8px;
-        background: darkslategrey;
-        border-radius: 50%;
     }
 
     &__row {

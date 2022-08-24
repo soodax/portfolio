@@ -45,13 +45,13 @@ export const projectsArray = [
         link: 'https://soodax.github.io/delivery-landing/',
         img: landing_icon
     },
-    {
-        id: 6,
-        name: 'Landing page',
-        info: 'Simple landing page.',
-        stack: 'HTML, SCSS',
-        link: 'https://soodax.github.io/apartments-sale-landing/',
-        img: landing_icon
-    },
+    // {
+    //     id: 6,
+    //     name: 'Landing page',
+    //     info: 'Simple landing page on Indonesian language.',
+    //     stack: 'HTML, SCSS',
+    //     link: 'https://soodax.github.io/apartments-landing/',
+    //     img: landing_icon
+    // },
 
 ]

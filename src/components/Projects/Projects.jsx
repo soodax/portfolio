@@ -10,13 +10,18 @@ const Projects = (props) => {
                     <h2 className='title'>Projects</h2>
                     <div className='projects__block'>
                         {projectsArray.map(item => {
-                            return <Project id={item.id}
+                            return <Project key={item.id}
+                                 id={item.id}
                                 name={item.name}
                                 info={item.info}
                                 stack={item.stack}
                                 link={item.link}
                                 img={item.img} />
                         })}
+                        <div className='projects__other'>
+                            See more projects on <br /> 
+                            <a href='https://github.com/soodax'>Github</a> 
+                        </div>
                     </div>
                 </div>
             </div>
