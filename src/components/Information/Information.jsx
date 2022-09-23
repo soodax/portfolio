@@ -2,7 +2,7 @@ import './Information.scss';
 
 const Information = (props) => {
     return (
-        <div id='informationSection' className='information'>
+        <section id='informationSection' className='information'>
             <div className='container'>
                 <div className="information__row">
                     <div className='information__col'>
@@ -13,14 +13,15 @@ const Information = (props) => {
                             Some information
                         </div>
                         <div className="information__text">
-                            Hello, my name is David. I create web-sites and apps using <span>HTML</span>, <span>CSS</span> and <span>JavaScript</span>. <br />
-                            Instead of usual CSS, I use <span>SCSS</span> preprocessor. For creating web-apps I use <span>React.js</span> and <span>TypeScript</span>. <br />
-                            As a state manager I use <span>Redux</span>/<span>Redux Toolkit</span>.
+                            <p>Hello, my name is David. I create web-sites and apps using <span>HTML</span>, <span>CSS</span> and <span>JavaScript</span>.</p> 
+                            <p>Instead of usual CSS, I prefer <span>SASS</span> preprocessor. For creating web-apps I use <span>React.js</span> and <span>TypeScript</span>.</p>
+                            <p>As a state manager I use <span>Redux</span>/<span>Redux Toolkit</span>.</p>
+                            
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

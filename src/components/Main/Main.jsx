@@ -3,7 +3,7 @@ import main_img from './../../assets/images/main.png';
 
 const Main = (props) => {
     return (
-        <div className='main'>
+        <section className='main'>
             <div className='container'>
                 <div className='main__row'>
                     <div className='main__col'>
@@ -15,7 +15,7 @@ const Main = (props) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

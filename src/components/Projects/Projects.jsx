@@ -4,7 +4,7 @@ import { projectsArray } from '../../data/projectsArray';
 
 const Projects = (props) => {
     return (
-        <div id='projectsSection' className='projects'>
+        <section id='projectsSection' className='projects'>
             <div className='container'>
                 <div className='projects__row'>
                     <h2 className='title'>Projects</h2>
@@ -20,12 +20,12 @@ const Projects = (props) => {
                         })}
                         <div className='projects__other'>
                             See more projects on <br /> 
-                            <a href='https://github.com/soodax'>Github</a> 
+                            <a href='https://github.com/soodax' target='_blank' rel='noreferrer'>Github</a> 
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
